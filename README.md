@@ -1,8 +1,3 @@
-create a conda enviorment using 
-conda create -n pointgamd python=3.9
-conda activate pointgamd
-pip install -r requirements.txt
-
 1) Data Preparation
 Download the dataset as given in the link below
 https://github.com/antao97/PointCloudDatasets/tree/master 
