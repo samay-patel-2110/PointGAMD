@@ -22,6 +22,6 @@ b) ModelNet40
 python train.py --run_name ' ' --num_points 1024 --device 'gpu' --k_n 20 --nepochs 300 --batch_size 32 --lr 0.1 --data_root '../dataset/h5' --dataset 'modelnet40' 
 
 3) Run the script under part_segmentation directory in terminal as below
-4) 
+   
 python train_seg.py --run_name ' ' --num_points 2048 --device 'gpu' --k_n 24 --nepochs 300 --batch_size 32 --lr 0.1 --data_root '../dataset/h5'
 
