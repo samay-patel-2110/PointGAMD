@@ -6,6 +6,14 @@ from glob import glob
 import numpy as np
 import torch.utils.data as data
 
+"""
+@Author: An Tao
+@Contact: ta19@mails.tsinghua.edu.cn
+@File: dataset.py
+@Time: 2020/1/2 10:26 AM
+work : https://github.com/antao97/dgcnn.pytorch/tree/master?tab=readme-ov-file#point-cloud-semantic-segmentation-on-the-s3dis-dataset
+dataset : https://github.com/antao97/PointCloudDatasets/blob/master/dataset.py
+"""
 
 shapenetpart_cat2id = {'airplane': 0, 'bag': 1, 'cap': 2, 'car': 3, 'chair': 4,
                        'earphone': 5, 'guitar': 6, 'knife': 7, 'lamp': 8, 'laptop': 9,

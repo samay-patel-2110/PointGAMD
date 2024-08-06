@@ -5,6 +5,9 @@ from torch.nn.parameter import Parameter
 import numpy as np
 from models.pointnet2_utils import PointNetFeaturePropagation
 
+
+# Thanks to PointMLP for releasing their code 
+
 class transform(nn.Module):  # n * x -> n * x
     def __init__(self, features):
         super(transform, self).__init__()
